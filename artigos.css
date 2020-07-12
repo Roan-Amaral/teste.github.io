@@ -1,0 +1,65 @@
+.artigos{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+    border-radius: 2px;
+    clear: both;
+    float: left;
+    height: auto;
+    margin-left:10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 4px;
+    width: 900px;
+}
+.destaques{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+    box-sizing: border-box;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 600px;
+}
+.destaques p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.item {
+    background-color: rgb(218, 224, 226);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: hidden;
+    width: 890px;
+    height: auto;
+}
+.sub-item div{
+    border: 1px dotted black;
+    width: 80px;
+    height: 80px;
+}
+/*Mobile First*/
+@media screen and (max-width: 700px){
+    .artigos{
+        width: 600px;
+        float: none;
+        margin: auto auto 4px auto;
+        box-sizing: border-box;
+    }
+    .item{
+        width:590px;
+    }
+    .destaques{
+        width: 600px;
+        height: 300px;
+        float: none;
+        margin: auto auto 10px auto;
+    }
+          
+}
